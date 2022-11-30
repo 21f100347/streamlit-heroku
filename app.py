@@ -39,5 +39,5 @@ for col in df.columns:
         df[col] = df[col].values.astype('float64')
 
 
-st.subheader('Prediction Probability')
+st.subheader('RESULTS')
 st.write(df['NUMBER_ONE'][0] -df['NUMBER_TWO'][0] )
