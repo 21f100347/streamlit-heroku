@@ -40,4 +40,4 @@ for col in df.columns:
 
 
 st.subheader('Prediction Probability')
-st.write(df['NUMBER_ONE'][0] -(df['NUMBER_TWO'][0] )
+st.write(df['NUMBER_ONE'][0] -df['NUMBER_TWO'][0] )
